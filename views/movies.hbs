@@ -1,0 +1,13 @@
+<h1>Ironhack Cinema</h1>
+
+<div class="cartelera">
+    {{#each movies}}
+    <div class="peliculas">
+        <div>
+            <img src="{{image}}" alt="">
+        </div>
+        <h4>{{title}}</h4>
+        <a href="/movies/{{_id}}">see more</a>
+    </div>
+    {{/each}}
+</div>

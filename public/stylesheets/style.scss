@@ -6,3 +6,35 @@ body {
 a {
   color: #00B7FF;
 }
+
+.fondo{
+  height: 100vh;
+}
+
+img{
+  max-width: 100%;
+}
+
+.botonpelis{
+  position: absolute;
+  height:70px;
+  width: 280px;
+  top:485px;
+  right: 310px; 
+}
+
+.cartelera{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.peliculas{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px 30px;
+  text-align: center;
+}
+
